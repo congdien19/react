@@ -13,7 +13,7 @@ function Footer() {
           <p> </p>
           <div className="footer-social-icons">
             <a href="#" aria-label="Facebook">
-              <img src="./Images/facebook.png" alt="Facebook" />
+              <img src="./images/facebook.png" alt="Facebook" />
             </a>
             <a href="#" aria-label="Twitter">
               <img src="./images/twitter.png" alt="Twitter" />
