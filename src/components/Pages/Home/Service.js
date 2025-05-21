@@ -7,7 +7,7 @@ const Service = () => {
       {/* Dịch vụ 1: Giao Hàng Miễn Phí */}
       <div className="service-item">
         <div className="service-icon">
-          <img src="/Images/giaohang.png" alt="Shipping Icon" />
+          <img src="/images/giaohang.png" alt="Shipping Icon" />
         </div>
         <div className="service-text">
           <h3>Giao Hàng Miễn Phí</h3>
