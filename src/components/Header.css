@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Căn chỉnh các cột với khoảng cách đều */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    background-color: #ebe5e5;
+    color: white;
+    padding: 10px 20px;
+  }

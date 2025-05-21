@@ -1,0 +1,57 @@
+.topthoitrang-container {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .topthoitrang-container h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    display: inline-block;
+    margin: 10px auto 30px;
+    padding: 8px 18px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .category-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .category-item {
+    max-width: 150px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .category-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .category-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .category-item h3 {
+    font-size: 15px;
+    margin: 10px 0 5px;
+    color: #222;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .category-item p {
+    font-size: 13px;
+    color: #666;
+  }
+  

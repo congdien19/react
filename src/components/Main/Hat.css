@@ -1,0 +1,119 @@
+.hat-page {
+    font-family: Arial, sans-serif;
+    padding: 40px 60px;
+    background: #f7f8fa;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 30px;
+  }
+  
+  .hat-container {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .hat-sidebar {
+    width: 250px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .category h4,
+  .price-filter h4,
+  .size-filter h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category li {
+    margin-bottom: 6px;
+  }
+  
+  .price-filter input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .size-filter button {
+    margin-right: 8px;
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    background: #f3f3f3;
+    cursor: pointer;
+  }
+  
+  .hat-main {
+    flex: 1;
+  }
+  
+  .hat-topbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .hat-topbar select {
+    padding: 5px;
+  }
+  
+  .view-toggle button {
+    margin-left: 5px;
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+  }
+  
+  .hat-item {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+  }
+  
+  .hat-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hat-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .hat-item h3 {
+    font-size: 14px;
+    margin: 8px 0;
+    color: #333;
+  }
+  
+  .hat-item p {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,62 @@
+.giay-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+  .giay-container h2 {
+    color: orange;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .giay-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .giay-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .giay-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .giay-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .stars {
+    color: gold;
+    margin: 5px 0;
+  }
+  
+  .giay-price {
+    color: orangered;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .xem-them {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .xem-them button {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  

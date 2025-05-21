@@ -1,0 +1,16 @@
+.social-icons {
+    display: flex; /* Hiển thị icon mạng xã hội theo chiều ngang */
+    gap: 10px; /* Khoảng cách giữa các icon */
+  }
+  
+  .social-icons .icon img {
+    width: 18px; /* Kích thước icon */
+    height: 18px; /* Kích thước icon */
+    opacity: 6; /* Độ mờ mặc định */
+}
+
+.social-icons .icon img {
+    width: 16px; /* Kích thước icon */
+    height: 16px; /* Kích thước icon */
+    opacity: 0.5; /* Độ mờ cố định cho icon */
+  }

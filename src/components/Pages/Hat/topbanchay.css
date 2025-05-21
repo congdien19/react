@@ -1,0 +1,103 @@
+.topban-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .topban-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .topban-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+  }
+  
+  .topban-card {
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+  }
+  
+  .topban-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .topban-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+  
+  .topban-discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #f05d40;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .topban-name {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+    height: 40px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .topban-price {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .old-price {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 13px;
+  }
+  
+  .new-price {
+    color: #f05d40;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 992px) {
+    .topban-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .topban-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .topban-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .topban-name {
+      height: auto;
+    }
+  }
