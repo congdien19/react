@@ -18,7 +18,7 @@ function Menu({ onMenuClick }) {
 
   return (
     <nav className="menu">
-      <div className="menu-toggle" onClick={toggleMobileMenu}>☰</div>
+      <div className="menu-toggle" onClick={toggleMobileMenu}></div>
       <ul className={isMobileMenuOpen ? 'open' : ''}>
         {['Home', 'Hat', 'Shirt', 'Introduce', 'Contact'].map((item) => (
           <li
