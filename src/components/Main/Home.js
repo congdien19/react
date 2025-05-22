@@ -6,6 +6,7 @@ import Giaylike from '../Pages/Home/Giaylike';
 import Ads from '../Pages/Home/ads';
 import KhachHang from '../Pages/Home/khachhang';
 import TinTuc from '../Pages/Home/tintuc';
+import ChaoHe from '../Pages/Home/chaohe';
 
 const Home = () => { 
   
@@ -16,6 +17,7 @@ const Home = () => {
      <Giaythethao/>
      <Giaylike/>
      <Ads/>
+     <ChaoHe/>
      <KhachHang/>
      <TinTuc/>
     </div>
