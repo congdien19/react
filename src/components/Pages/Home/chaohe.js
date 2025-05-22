@@ -22,7 +22,7 @@ export default function ChaoHe() {
 
       <h2 className="collection-title">BỘ SƯU TẬP MỚI – THỂ THAO ĐỈNH PHONG, PHONG CÁCH DẪN ĐẦU! 🟡</h2>
       <p className="collection-desc">
-        🎽 Đã đến lúc làm mới bản thân với những thiết kế thể thao cực chất, năng động và đậm cá tính riêng! Bộ sưu tập mới của FashionZone là lời tuyên bố mạnh mẽ cho phong cách sống hiện đại – nơi thời trang gặp gỡ hiệu suất!
+        🎽 Đã đến lúc làm mới bản thân với những thiết kế thể thao cực chất, năng động và đậm cá tính riêng! Bộ sưu tập mới của Sportbook là lời tuyên bố mạnh mẽ cho phong cách sống hiện đại – nơi thời trang gặp gỡ hiệu suất!
       </p>
       <p className="highlight">🔥 ĐIỂM NHẤN CỦA BST:</p>
       <ul className="highlight-list">
