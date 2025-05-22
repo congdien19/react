@@ -4,7 +4,7 @@ import './chaohe.css';
 export default function ChaoHe() {
   return (
     <div className="chaohe-container">
-      <h1 className="title">CHÀO HÈ RỰC CHÁY – LÊN ĐỒ CỰC CHẤT 🟡</h1>
+      <h1 className="title">CHÀO HÈ RỰC CHÁY – LÊN ĐỒ CỰC CHẤT🟡</h1>
       <p className="intro">
         Hè 2024 đã đến! Cùng <strong>FashionZone</strong> đón nắng rực rỡ với BST giày thể thao, mũ lưỡi trai và áo phông năng động – thiết kế thời thượng, thoáng mát và chuẩn phong cách đường phố!
       </p>
@@ -39,7 +39,7 @@ export default function ChaoHe() {
       </ul>
       <p className="footer-note">
         🟡 Thể thao không chỉ là vận động – mà còn là phong cách sống.<br />
-        👉 Cùng FashionZone tỏa sáng trong từng bước chạy!
+        👉 Cùng tỏa Sportbook sáng trong từng bước chạy!
       </p>
     </div>
   );
