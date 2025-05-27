@@ -11,12 +11,10 @@ function ThanhVien() {
         <div className="team-card">
           <img src="/images/mobep.jpg" alt="Kỳ Văn Lân" />
           <h3>Đặng Công Diện</h3>
-          <p>Quản lý MKT</p>
         </div>
         <div className="team-card">
           <img src="/images/phoenix.png" alt="Hoàng Thị Phượng" />
           <h3>Ngô Bá Chiến</h3>
-          <p>Nhân viên bán hàng</p>
         </div>
       </div>
     </div>
