@@ -13,17 +13,17 @@ function Contact() {
         <div className="info-box">
           <img src="/images/map.png" alt="map" />
           <h4>Địa chỉ</h4>
-          <p>Số 1 Đào Duy Anh</p>
+          <p>Yên Phong-Bắc Ninh</p>
         </div>
         <div className="info-box">
           <img src="/images/mail.png" alt="email" />
           <h4>Địa chỉ Email</h4>
-          <p>theme@gmail.com</p>
+          <p>sportbook@gmail.com</p>
         </div>
         <div className="info-box">
           <img src="/images/phone.png" alt="phone" />
           <h4>Số điện thoại</h4>
-          <p>0897654323</p>
+          <p>087654321</p>
         </div>
       </div>
 
