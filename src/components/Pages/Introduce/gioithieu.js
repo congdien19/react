@@ -17,7 +17,7 @@ function GioiThieu() {
       {/* Nội dung chính */}
       <div className="gioithieu-content">
         <div className="gioithieu-image">
-          <img src="/images/chien.jpg" alt="Giới thiệu" />
+          <img src="/images/540.jpg" alt="Giới thiệu" />
         </div>
         <div className="gioithieu-text">
           <h3>Chúng Tôi Là Ai?</h3>
