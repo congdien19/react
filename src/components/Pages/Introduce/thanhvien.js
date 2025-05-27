@@ -13,7 +13,7 @@ function ThanhVien() {
           <h3>Đặng Công Diện</h3>
         </div>
         <div className="team-card">
-          <img src="/images/chien.jpg" alt="Hoàng Thị Phượng" />
+          <img src="/images/chien1.jpg" alt="Hoàng Thị Phượng" />
           <h3>Ngô Bá Chiến</h3>
         </div>
       </div>
