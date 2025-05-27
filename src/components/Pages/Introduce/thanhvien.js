@@ -18,11 +18,6 @@ function ThanhVien() {
           <h3>Ngô Bá Chiến</h3>
           <p>Nhân viên bán hàng</p>
         </div>
-        <div className="team-card">
-          <img src="/images/dragon.png" alt="Nguyễn Văn Long" />
-          <h3>Curry</h3>
-          <p>Quản lý bán hàng</p>
-        </div>
       </div>
     </div>
   );
