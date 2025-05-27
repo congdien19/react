@@ -22,7 +22,7 @@ function GioiThieu() {
         <div className="gioithieu-text">
           <h3>Chúng Tôi Là Ai?</h3>
           <p>
-            GMO-Z.com RUNSYSTEM tiền thân là Công ty RUNSYSTEM hoạt động trong các lĩnh vực sản xuất phần mềm, cung cấp các giải pháp và dịch vụ CNTT tại thị trường Việt Nam và Nhật Bản. Với phương châm làm việc “We work for your smile”, GMO-Z.com RUNSYSTEM thường xuyên cải tiến môi trường làm việc, cải tiến kỹ thuật, quy trình để cung cấp sản phẩm chất lượng toàn cầu nhằm phát huy tối đa hiệu quả công việc, mang lại giá trị to lớn cho khách hàng cũng các thành viên của GMO-Z.com RUNSYSTEM.
+Sportsbook là thương hiệu thời trang tiên phong, chuyên thiết kế và cung cấp các sản phẩm thời trang hiện đại, năng động, phù hợp với xu hướng toàn cầu. Với phương châm hoạt động "We work for your style", Sportsbook không ngừng đổi mới trong thiết kế, cải tiến chất liệu và quy trình sản xuất nhằm mang đến những sản phẩm chất lượng cao, thời thượng và bền vững. Sportsbook luôn hướng tới việc tạo ra giá trị thực cho khách hàng thông qua phong cách sống đậm chất riêng, đồng thời xây dựng một môi trường làm việc sáng tạo, nơi mỗi cá nhân đều có cơ hội phát triển và thể hiện bản sắc thời trang của mình.
           </p>
         </div>
       </div>
