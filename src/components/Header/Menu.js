@@ -2,8 +2,16 @@ import React, { useState } from 'react';
 import './Menu.css';
 
 function Menu({ onMenuClick }) {
-  const [activeItem, setActiveItem] = useState('Home'); // Mặc định là Home
-  const [hoveredItem, setHoveredItem] = useState(null); // Trạng thái cho mục đang hover
+  const [activeItem, setActiveItem] = useState('Home');
+  const [hoveredItem, setHoveredItem] = useState(null);
+
+  const menuItems = [
+    { label: 'Trang chủ', value: 'Home' },
+    { label: 'Nón', value: 'Hat' },
+    { label: 'Áo', value: 'Shirt' },
+    { label: 'Giới thiệu', value: 'Introduce' },
+    { label: 'Liên hệ', value: 'Contact' }
+  ];
 
   const handleClick = (page) => {
     setActiveItem(page);
@@ -13,15 +21,15 @@ function Menu({ onMenuClick }) {
   return (
     <nav className="menu">
       <ul>
-        {['Home', 'Hat', 'Shirt','Introduce','Contact'].map((item) => (
+        {menuItems.map((item) => (
           <li
-            key={item}
-            className={`${activeItem === item ? 'active' : ''} ${hoveredItem === item ? 'hovered' : ''}`}
-            onClick={() => handleClick(item)}
-            onMouseEnter={() => setHoveredItem(item)}
+            key={item.value}
+            className={`${activeItem === item.value ? 'active' : ''} ${hoveredItem === item.value ? 'hovered' : ''}`}
+            onClick={() => handleClick(item.value)}
+            onMouseEnter={() => setHoveredItem(item.value)}
             onMouseLeave={() => setHoveredItem(null)}
           >
-            {item}
+            {item.label}
           </li>
         ))}
       </ul>
