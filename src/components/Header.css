@@ -1,8 +1,10 @@
-.header {
-    display: flex;
-    justify-content: space-between; /* Căn chỉnh các cột với khoảng cách đều */
-    align-items: center; /* Căn giữa theo chiều dọc */
-    background-color: #ebe5e5;
-    color: white;
-    padding: 10px 20px;
-  }
+.header-container {
+  display: flex;
+  flex-direction: column; /* Dàn theo chiều dọc */
+  height: 100vh; /* Chiều cao full trang */
+  width: 20%; /* Header chiếm 20% chiều ngang */
+  background-color: #ebe5e5;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: auto; /* Cuộn nếu nội dung quá dài */
+}
